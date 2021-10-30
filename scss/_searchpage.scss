@@ -1,0 +1,135 @@
+@import 'utilities';
+@import 'generals';
+
+body {
+    header {
+        div {
+            button {
+                border-radius: 4px;
+
+                img {
+                    background-color: #f9f6f1;
+                    border-radius: 4px;
+                    padding: 2px 4px;
+                }
+            }
+            .navbar-toggler:focus {
+                box-shadow: 0 0 0 0 0;
+            }
+        }
+    }
+    #search {
+        .container{
+        div {
+            background-color: #f9f6f1;
+            padding: 4em 2em;
+            p {
+                font-size: .9rem;
+                padding: 0;
+            }
+            form {
+                input {
+                    padding: 15px;
+                }
+
+                button {
+                    padding: 15px;
+                }
+            }
+        }
+    }
+}
+
+   #campgrounds {
+       .container {
+           #cardset {
+               margin: 0;
+               display: grid;
+               grid-template-columns: 1fr;
+               grid-row-gap: 1rem;
+               div{
+
+               img {
+                   border-radius: 1.3rem;
+                   width: 100%;
+               }
+            }
+           }
+       }
+   }
+}
+
+@include tabletmedia {
+
+    body { 
+
+    header {
+        div {
+            div {
+                ul {
+                    #login-btn {
+                        color: #777;
+                    }
+                    #create-account {
+                        color: #777;
+                    }
+                }
+            }
+        }
+    }
+
+    #search {
+        .container {
+            div {
+                p {
+                    width: 60%;
+                }
+                form {
+                    input {
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+
+    #campgrounds {
+        .container {
+            #cardset {
+                grid-template-columns: repeat(2,1fr);
+                grid-gap: 1rem;
+            }
+        }
+    }
+}
+}
+
+@include desktoptmedia {
+    body {
+        header {
+            div {
+                div {
+                    ul {
+                        #login-btn {
+                            color: #777;
+                        }
+                        #create-account {
+                            background-color: #111;
+                            padding: 1.4em;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+        
+    #campgrounds {
+        .container {
+            #cardset {
+                grid-template-columns: repeat(3,1fr);
+                grid-gap: 1rem;
+            }
+        }
+    }
+    }
+}

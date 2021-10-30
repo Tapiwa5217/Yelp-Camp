@@ -1,0 +1,50 @@
+:root {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  background-color: pink;
+}
+
+body header div button {
+  border-radius: 4px;
+}
+
+body header div button img {
+  background-color: #f9f6f1;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+body header div .navbar-toggler:focus {
+  box-shadow: 0 0 0 0 0;
+}
+
+body #site-info {
+  background-color: pink;
+}
+
+body #site-info .container div {
+  background-color: pink;
+}
+
+body #site-info .container div img {
+  border-radius: 10px;
+}

@@ -1,0 +1,753 @@
+:root {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: #999;
+}
+
+ul {
+  list-style-type: none;
+}
+
+:root {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: #999;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body header div button {
+  border-radius: 4px;
+}
+
+body header div button img {
+  background-color: #f9f6f1;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+body header div .navbar-toggler:focus {
+  box-shadow: 0 0 0 0 0;
+}
+
+body #search .container div {
+  background-color: #f9f6f1;
+  padding: 4em 2em;
+}
+
+body #search .container div p {
+  font-size: .9rem;
+  padding: 0;
+}
+
+body #search .container div form input {
+  padding: 15px;
+}
+
+body #search .container div form button {
+  padding: 15px;
+}
+
+body #campgrounds .container #cardset {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 1rem;
+}
+
+body #campgrounds .container #cardset div img {
+  border-radius: 1.3rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  body header div div ul #login-btn {
+    color: #777;
+  }
+  body header div div ul #create-account {
+    color: #777;
+  }
+  body #search .container div p {
+    width: 60%;
+  }
+  body #search .container div form input {
+    width: 50%;
+  }
+  body #campgrounds .container #cardset {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body header div div ul #login-btn {
+    color: #777;
+  }
+  body header div div ul #create-account {
+    background-color: #111;
+    padding: 1.4em;
+    color: #fff;
+  }
+  body #campgrounds .container #cardset {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+  }
+}
+
+:root {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: #999;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#home-body {
+  background-color: #f9f6f1;
+}
+
+#home-body #hero-section #hero-image {
+  background-image: url("../resources/Hero Image (Tablet and Mobile).jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+
+#home-body #hero-section #hero-text-content h2 {
+  font-size: 2.1rem;
+  line-height: 1.9rem;
+  width: 80%;
+}
+
+#home-body #hero-section #hero-text-content .btn {
+  background-color: #111;
+  padding: .8em 1em;
+}
+
+@media screen and (min-width: 768px) {
+  #home-body #hero-section #hero-text-content {
+    font-size: 1.1rem;
+    padding-right: 10%;
+  }
+  #home-body #hero-section #hero-text-content h2 {
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #home-body {
+    height: 100vh;
+  }
+  #home-body #hero-section #hero-image {
+    background-image: url("../resources/Hero Image.jpg");
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+  }
+  #home-body #hero-section #hero-text-content {
+    width: 40%;
+    margin: 70px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.1rem;
+  }
+  #home-body #hero-section #hero-text-content h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+  }
+  #home-body #hero-section #hero-text-content .btn {
+    background-color: #111;
+    padding: 1em;
+  }
+}
+
+:root {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: #999;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body header div button {
+  border-radius: 4px;
+}
+
+body header div button img {
+  background-color: #f9f6f1;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+body header div .navbar-toggler:focus {
+  box-shadow: 0 0 0 0 0;
+}
+
+body #site-info .container div img {
+  border-radius: .4rem;
+}
+
+body #site-info .container div div div p span {
+  font-size: .9rem;
+  padding-top: 1px;
+}
+
+@media screen and (min-width: 992px) {
+  #site-info {
+    position: absolute;
+    right: 3.5%;
+    width: 60%;
+    margin-bottom: 2em;
+  }
+  #site-info .container #map-card {
+    position: absolute;
+    left: -55%;
+    width: 50%;
+    top: -1.9%;
+  }
+  #site-info .container #bottom-logo {
+    transform: translateX(-350%);
+  }
+  #site-info #bottom-border {
+    width: 150%;
+    transform: translateX(-35%);
+  }
+}
+
+:root {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: #999;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body header div button {
+  border-radius: 4px;
+}
+
+body header div button img {
+  background-color: #f9f6f1;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+body header div .navbar-toggler:focus {
+  box-shadow: 0 0 0 0 0;
+}
+
+body #review-box .container div h2 {
+  font-size: 2rem;
+}
+
+body #review-box .container div textarea {
+  width: 100%;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+body #review-box .container div button {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  body #review-box .container div textarea {
+    width: 70%;
+  }
+  body #review-box .container div button {
+    width: 70%;
+  }
+  body #review-box .container div img {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body #review-box {
+    position: relative;
+    margin-top: 2em;
+  }
+  body #review-box .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body #review-box .container div {
+    width: 50%;
+  }
+  body #review-box .container div textarea {
+    width: 100%;
+  }
+  body #review-box .container div button {
+    width: 100%;
+  }
+  body #review-box .container img {
+    margin-top: 3em;
+    align-self: flex-start;
+  }
+}
+
+:root {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: #999;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body header div button {
+  border-radius: 4px;
+}
+
+body header div button img {
+  background-color: #f9f6f1;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+body header div .navbar-toggler:focus {
+  box-shadow: 0 0 0 0 0;
+}
+
+body #add-camp-box .container div h2 {
+  font-size: 2rem;
+}
+
+body #add-camp-box .container div input {
+  background-color: #eee;
+}
+
+body #add-camp-box .container div textarea {
+  width: 100%;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+body #add-camp-box .container div button {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  body #add-camp-box .container div input {
+    width: 70%;
+  }
+  body #add-camp-box .container div textarea {
+    width: 70%;
+  }
+  body #add-camp-box .container div button {
+    width: 70%;
+  }
+  body #add-camp-box .container div img {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body #add-camp-box {
+    position: relative;
+    margin-top: 2em;
+  }
+  body #add-camp-box .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body #add-camp-box .container div {
+    width: 50%;
+  }
+  body #add-camp-box .container div input {
+    width: 100%;
+  }
+  body #add-camp-box .container div textarea {
+    width: 100%;
+  }
+  body #add-camp-box .container div button {
+    width: 100%;
+  }
+  body #add-camp-box .container img {
+    margin-top: 3em;
+    align-self: flex-start;
+  }
+}
+
+:root {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: #999;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#login-body header div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#login-body header div a {
+  font-size: 1.1rem;
+}
+
+#login-body #login-section .container #content-section #login-box h2 {
+  font-size: 2rem;
+}
+
+#login-body #login-section .container #content-section #login-box input {
+  background-color: #eee;
+}
+
+#login-body #login-section .container #content-section #login-box textarea {
+  width: 100%;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#login-body #login-section .container #content-section #login-box button {
+  width: 100%;
+}
+
+#login-body #login-comment {
+  background-color: #f9f6f1;
+}
+
+@media screen and (min-width: 768px) {
+  #login-body #login-section .container #content-section #login-box input {
+    width: 70%;
+  }
+  #login-body #login-section .container #content-section #login-box textarea {
+    width: 70%;
+  }
+  #login-body #login-section .container #content-section #login-box button {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #login-body {
+    overflow: hidden;
+  }
+  #login-body header {
+    width: 45%;
+  }
+  #login-body #login-section {
+    width: 45%;
+    height: 80vh;
+    margin-top: 2em;
+  }
+  #login-body #login-section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+  #login-body #login-section .container #content-section {
+    width: 100%;
+  }
+  #login-body #login-section .container #content-section #login-box input {
+    width: 100%;
+  }
+  #login-body #login-section .container #content-section #login-box textarea {
+    width: 100%;
+  }
+  #login-body #login-section .container #content-section #login-box button {
+    width: 100%;
+  }
+  #login-body #login-comment {
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    width: 50%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #login-body #login-comment p {
+    width: 50%;
+  }
+  #login-body #login-comment div {
+    align-self: flex-start;
+    margin-left: 25%;
+    width: 100%;
+  }
+}
+
+:root {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: #999;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#sign-up-body header div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#sign-up-body header div a {
+  font-size: 1.1rem;
+}
+
+#sign-up-body #sign-up-section .container #content-section #sign-up-box h2 {
+  font-size: 2rem;
+}
+
+#sign-up-body #sign-up-section .container #content-section #sign-up-box input {
+  background-color: #eee;
+}
+
+#sign-up-body #sign-up-section .container #content-section #sign-up-box button {
+  width: 100%;
+}
+
+#sign-up-body #sign-up-comment {
+  background-color: #f9f6f1;
+}
+
+@media screen and (min-width: 768px) {
+  #sign-up-body #sing-up-section .container #content-section #sign-up-box input {
+    width: 70%;
+  }
+  #sign-up-body #sing-up-section .container #content-section #sign-up-box textarea {
+    width: 70%;
+  }
+  #sign-up-body #sing-up-section .container #content-section #sign-up-box button {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #sign-up-body {
+    overflow: hidden;
+  }
+  #sign-up-body header {
+    width: 45%;
+  }
+  #sign-up-body #sign-up-section {
+    width: 45%;
+    height: 80vh;
+    margin-top: 2em;
+  }
+  #sign-up-body #sign-up-section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+  #sign-up-body #sign-up-section .container #content-section {
+    width: 100%;
+  }
+  #sign-up-body #sign-up-section .container #content-section #sign-up-box input {
+    width: 100%;
+  }
+  #sign-up-body #sign-up-section .container #content-section #sign-up-box textarea {
+    width: 100%;
+  }
+  #sign-up-body #sign-up-section .container #content-section #sign-up-box button {
+    width: 100%;
+  }
+  #sign-up-body #sign-up-comment {
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    width: 50%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #sign-up-body #sign-up-comment p {
+    width: 50%;
+  }
+  #sign-up-body #sign-up-comment div {
+    align-self: flex-start;
+    margin-left: 25%;
+    width: 100%;
+  }
+}

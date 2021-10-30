@@ -1,0 +1,70 @@
+@import 'utilities';
+@import 'generals';
+
+
+body {
+    header {
+        div {
+            button {
+                border-radius: 4px;
+
+                img {
+                    background-color: #f9f6f1;
+                    border-radius: 4px;
+                    padding: 2px 4px;
+                }
+            }
+            .navbar-toggler:focus {
+                box-shadow: 0 0 0 0 0;
+            }
+        }
+    }
+
+    #site-info {
+        .container {
+            div {
+                img {
+                    border-radius: .4rem;
+                }
+
+                div{
+                    div {
+                        p {
+                            span {
+                                font-size: .9rem;
+                                padding-top: 1px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include desktoptmedia {
+    #site-info {
+        position: absolute;
+        right: 3.5%;
+        width: 60%;
+        margin-bottom: 2em;
+
+        .container {
+            #map-card {
+                position: absolute;
+                left: -55%;
+                width: 50%;
+                top: -1.9%;
+            }
+
+            #bottom-logo {
+                transform: translateX(-350%);
+            }
+
+        }
+        #bottom-border {
+            width: 150%;
+            transform: translateX(-35%);
+        }
+    }
+}

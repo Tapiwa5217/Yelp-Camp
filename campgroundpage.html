@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Individual Campground | Yelp Camp</title>
+</head>
+<body>
+    <header class="py-4">
+        <div class="container navbar navbar-expand-lg">
+            <img src="resources/svgs/Logo.svg" class="navbar-brand">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <img src="resources/svgs/Hamburger Menu.svg" alt="">
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a href="index.html" class="btn text-secondary d-none d-lg-inline">Home</a>
+                <ul class="navbar-nav text-center ms-auto">
+                    <li id="login-btn" class="py-2"><a href="loginpage.html">Login</a></li>
+                    <li id="create-account" class="py-2 btn ms-3"><a href="signuppage.html">create account</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section id="site-info">
+        <div class="container">
+            <div class="card p-4">
+                <img src="resources/camp images/Mount Ulap.jpg"  class="card-img-top">
+                <div class="card-body px-0">
+                    <div class="top-card-text d-flex justify-content-between">
+                    <h4 class="text-dark fw-bold">Mount Ulap</h4>
+                    <p class="d-flex align-items-center"><span>$</span>104.99/night</p>
+                </div>
+                  <p class="card-text text-secondary">Mount Ulap is a 7.7 kilometer moderately trafficked point-to-point trail located near Tuba, Benguet, Philippines that offers the chance to see wildlife and is rated as moderate. The trail is primarily used for hiking.</p>
+                  <blockquote class="text-secondary"><i>Submitted by Andrew Mike</i></blockquote>
+                </div>
+              </div>
+
+              <div class="card mt-4">
+                <div class="card-body">
+                    <div class="review-card-top d-flex justify-content-between mt-4">
+                        <h4>Adam Jones</h4>
+                        <p class="text-secondary">13h ago</p>
+                    </div>
+                 <p class="text-secondary">Honestly one of the best experiences ever, took us a while to figure out how to get there but it was amazing!</p>
+                 <hr>
+                 <div class="review-card-top d-flex justify-content-between mt-4">
+                    <h4>Isaac Dylan</h4>
+                    <p class="text-secondary">1 day ago</p>
+                 </div>
+                 <p class="text-secondary">Traveling changes you as a person, you gain more perspective, this is the perfect spot to do that.</p>
+                 <hr>
+                 <div class="review-card-top d-flex justify-content-between mt-4">
+                    <h4>Hudson Luca</h4>
+                    <p class="text-secondary">3 days ago</p>
+                 </div>
+                 <p class="text-secondary">Definitely recommend going there, not too far and not a lot of people to ruin the experience.</p>
+                 <hr>
+                 <a href="addreview.html" class="btn btn-dark fw-bold p-3"><img src="resources/svgs/Chat Bubble.svg"> Leave a Review</a>
+                </div>
+              </div>
+              <div id="map-card" class="card mt-4">
+                <div class="card-body">
+                 <img src="resources/Map.png" class="w-100">
+                </div>
+              </div>
+              <img id="bottom-logo" src="resources/svgs/Logo.svg" class="my-4">
+        </div>
+        <hr id="bottom-border">
+    </section>
+    
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

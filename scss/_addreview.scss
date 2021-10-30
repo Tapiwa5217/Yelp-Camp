@@ -1,0 +1,101 @@
+@import 'utilities';
+@import 'generals';
+
+body {
+    header {
+        div {
+            button {
+                border-radius: 4px;
+
+                img {
+                    background-color: #f9f6f1;
+                    border-radius: 4px;
+                    padding: 2px 4px;
+                }
+            }
+            .navbar-toggler:focus {
+                box-shadow: 0 0 0 0 0;
+            }
+        }
+    }
+
+    #review-box {
+        .container {
+
+            div {
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            textarea {
+                width: 100%;
+                background-color: #eee;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+            }
+           button {
+                width: 100%;
+            }
+        }
+        }
+    }
+
+}
+
+@include tabletmedia {
+
+    body {
+    #review-box {
+        .container {
+
+            div {
+
+            textarea {
+                width: 70%;
+            }
+
+            button {
+                width: 70%;
+            }
+
+            img {
+                display: block;
+            }
+        }
+        }
+    }
+}
+}
+
+@include desktoptmedia {
+    body {
+        #review-box {
+            position: relative;
+            margin-top: 2em;
+
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                div {
+                width: 50%;
+
+                textarea {
+                    width: 100%;
+                }
+
+                button {
+                    width: 100%;
+                }
+            }
+
+            img {
+                margin-top: 3em;
+                align-self: flex-start;
+            }
+            }
+        }
+    }
+}

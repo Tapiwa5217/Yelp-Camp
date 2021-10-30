@@ -1,0 +1,113 @@
+@import 'utilities';
+@import 'generals';
+
+body {
+    header {
+        div {
+            button {
+                border-radius: 4px;
+
+                img {
+                    background-color: #f9f6f1;
+                    border-radius: 4px;
+                    padding: 2px 4px;
+                }
+            }
+            .navbar-toggler:focus {
+                box-shadow: 0 0 0 0 0;
+            }
+        }
+    }
+
+    #add-camp-box {
+        .container {
+
+            div {
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            input {
+                background-color: #eee;
+            }
+
+            textarea {
+                width: 100%;
+                background-color: #eee;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+            }
+           button {
+                width: 100%;
+            }
+        }
+        }
+    }
+
+}
+
+@include tabletmedia {
+
+    body {
+    #add-camp-box {
+        .container {
+
+            div {
+
+            input {
+                width: 70%;
+                }
+
+            textarea {
+                width: 70%;
+            }
+
+            button {
+                width: 70%;
+            }
+
+            img {
+                display: block;
+            }
+        }
+        }
+    }
+}
+}
+
+@include desktoptmedia {
+    body {
+        #add-camp-box {
+            position: relative;
+            margin-top: 2em;
+
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                div {
+                width: 50%;
+
+                input {
+                    width: 100%;
+                }
+
+                textarea {
+                    width: 100%;
+                }
+
+                button {
+                    width: 100%;
+                }
+            }
+
+            img {
+                margin-top: 3em;
+                align-self: flex-start;
+            }
+            }
+        }
+    }
+}
