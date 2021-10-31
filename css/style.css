@@ -542,10 +542,11 @@ ul {
 #login-body header div {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 #login-body header div a {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 #login-body #login-section .container #content-section #login-box h2 {
@@ -667,10 +668,11 @@ ul {
 #sign-up-body header div {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 #sign-up-body header div a {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 #sign-up-body #sign-up-section .container #content-section #sign-up-box h2 {
